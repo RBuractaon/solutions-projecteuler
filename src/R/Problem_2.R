@@ -21,4 +21,5 @@ while (fib1<4e6) {
     fib0 <- fib1
     fib1 <- fibtemp
 }
-fibsum
+
+answer <- fibsum
