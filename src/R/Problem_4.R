@@ -6,7 +6,7 @@
 # 9009 = 91 × 99.
 #
 # Find the largest palindrome made from the product of two 3-digit numbers.
-require('Kmisc')
+require('Kmisc')  # contains function str_rev
 
 P <- vector()
 for (x in seq(999,100,-1)) {
