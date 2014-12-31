@@ -5,11 +5,12 @@
 # The prime factors of 13195 are 5, 7, 13 and 29.
 #
 # What is the largest prime factor of the number 600851475143 ?
-
+#
 # Solution using the square forms factorization method
 # http://en.wikipedia.org/wiki/Shanks%27_square_forms_factorization
 
 require(numbers)
+
 gcd <- function(x,y) {
   r <- x%%y
   return(ifelse(r, gcd(y, r), y))
@@ -62,4 +63,4 @@ squareFormsFactors <- function(N,k) {
   return(f)
 }
 
-sumFromFactors(600851475143,9)
+answer <- sumFromFactors(600851475143,9)
