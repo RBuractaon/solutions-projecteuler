@@ -7,4 +7,4 @@
 #
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-sum(union(seq(3,999,3),seq(5,999,5)))
+answer <- sum(union(seq(3,999,3),seq(5,999,5)))
